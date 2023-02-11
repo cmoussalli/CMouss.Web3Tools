@@ -1,0 +1,21 @@
+#name: Build
+#on:
+#  push:
+#    branches:
+#    - '**'
+#    tags-ignore:
+#    - nuget*
+  
+#jobs:
+#  build:
+#    runs-on: windows-latest
+#    steps:
+#      - uses: actions/checkout@v3
+#      - uses: actions/setup-dotnet@v3
+#        with: 
+#          dotnet-version: 6.0.x
+#      - run: dotnet clean
+#      - name: 'Restore packages'
+#        run: dotnet restore CMouss.NFTTools/CMouss.NFTTools.csproj
+#      - name: 'Build project'
+#        run: dotnet build CMouss.NFTTools/CMouss.NFTTools.csproj --no-restore

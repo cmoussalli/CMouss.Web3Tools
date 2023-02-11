@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>CMouss.Web3Tools</Title>
+    <Version>0.0.2</Version>
+    <Authors>Caesar Moussalli</Authors>
+    <Company />
+    <PackageProjectUrl>https://github.com/cmoussalli/CMouss.Web3Tools</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/cmoussalli/CMouss.Web3Tools</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>
